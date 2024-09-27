@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right: 30px;
+}
+
+.esconde{
+  display: none;
+}
+
+.botao{
+  background-color:black;
+  borer:2px solid blue;
+  border-radius: 200px;
+  color: white;
+  font-size:30px;
+  font-family: "Bebas Neue";
+}
+.botao:hover{
+  background-color: yellow;
+  border: 2px solid black;
+}
